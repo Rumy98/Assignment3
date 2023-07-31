@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact me</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Send us a message</h1>
+    </div>
+    <form action="email.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" />
+      <label for="email">Email us</label>
+      <input type="email" name="email" id="email" />
+      <label for="message">Message us</label>
+      <textarea name="message" cols="30" rows="10"></textarea>
+      <input type="submit" value="Send" />
+    </form>
+  </body>
+</html>
